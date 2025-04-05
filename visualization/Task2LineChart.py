@@ -45,7 +45,7 @@ results_df = pd.DataFrame(results)
 # ===========================================
 
 # 将Frequency映射成数字（方便画X轴）
-freq_mapping = {'f1': 1, 'f2': 2, 'f3': 3, 'f4': 4, 'f5': 5}
+freq_mapping = {'f1': 1, 'f2': 3, 'f3': 5, 'f4': 7, 'f5': 9}
 results_df['Freq_Num'] = results_df['Frequency'].map(freq_mapping)
 
 # 颜色和标签
